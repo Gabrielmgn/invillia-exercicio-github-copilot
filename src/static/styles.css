@@ -136,6 +136,39 @@ button:hover {
   display: none;
 }
 
+.participants {
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+.participants strong {
+  display: block;
+  margin-bottom: 6px;
+}
+.participants ul {
+  list-style: disc inside;
+  margin-left: 12px;
+}
+.participants li {
+  padding: 2px 0;
+  color: #444;
+  font-size: 0.9rem;
+}
+.no-participants {
+  color: #777;
+  font-style: italic;
+}
+
+/* Badge for participant count (optional) */
+.badge {
+  display: inline-block;
+  background: #1a237e;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 8px;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
